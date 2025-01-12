@@ -89,3 +89,4 @@ create materialized view if not exists dev.elec_gas_consumption as
     from dev.national_statistics_postcode_lookup_uk a
     left join dev.elec_gas_consumption b
 )
+;
