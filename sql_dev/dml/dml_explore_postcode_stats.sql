@@ -12,6 +12,12 @@ limit 50
 ;
 
 select
+  distinct "Country Name"
+from
+  dev.national_statistics_postcode_lookup_uk
+;
+
+select
   count(distinct "Local Authority Name")
 from
   dev.national_statistics_postcode_lookup_uk

@@ -1,11 +1,7 @@
--- drop schema if exists subnational_consumption cascade;
--- drop table if exists dev.national_statistics_postcode_lookup_uk;
--- drop table if exists dev.postcode_level_all_meters_electricity;
--- drop table if exists dev.postcode_level_all_meters_gas;
-create schema dbt_schema;
-
--- create database if not exists subnational_consumption;
+-- Create the database and schemas
+create database subnational_consumption;
 create schema if not exists dev;
+create schema if not exists dbt_schema;
 
 create table if not exists dev.national_statistics_postcode_lookup_uk (
 	"Postcode 1" varchar(50) null
@@ -48,7 +44,7 @@ create table if not exists dev.national_statistics_postcode_lookup_uk (
 ;
 
 
-create table dev.postcode_level_all_meters_electricity (
+create table if not exists dev.postcode_level_all_meters_electricity (
 	"Outcode" varchar(50) null
 	,"Postcode" varchar(50) null
 	,"Num_meters" int4 null
@@ -59,7 +55,7 @@ create table dev.postcode_level_all_meters_electricity (
 )
 ;
 
-create table dev.postcode_level_gas (
+create table if not exists dev.postcode_level_gas (
 	"Outcode" varchar(128) null
 	,"Postcode" varchar(128) null
 	,"Num_meters" int4 null
