@@ -44,7 +44,8 @@ create table if not exists dev.national_statistics_postcode_lookup_uk (
 	,"Last Uploaded" varchar(50) null
 	,"Location" varchar(50) null
 	,"Socrata ID" int4 null
-);
+)
+;
 
 
 create table dev.postcode_level_all_meters_electricity (
