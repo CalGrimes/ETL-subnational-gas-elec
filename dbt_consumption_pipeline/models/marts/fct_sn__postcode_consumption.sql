@@ -1,5 +1,5 @@
 select
-  postcodes."Postcode 1" as postcode
+  postcodes.postcode
   ,postcodes."County Name" as county_name
   ,postcodes."Region Name" as region_name
   ,postcodes."Local Authority Name" as local_authority_name
@@ -15,5 +15,5 @@ from
 join
     {{ ref('int_sn__consumption_summary') }} as consumption_summary
 on 
-  postcodes."Postcode 1" = consumption_summary."Postcode"
+  postcodes.postcode = consumption_summary."Postcode"
 order by consumption_summary."analytics_year" desc

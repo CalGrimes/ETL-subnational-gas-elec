@@ -1,5 +1,5 @@
 select
-  "Postcode 1"
+  "Postcode 1" as postcode
   ,"Postcode 2"
   ,"Postcode 3"
   ,"Date Introduced"

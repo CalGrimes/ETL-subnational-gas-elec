@@ -5,7 +5,7 @@ models:
   - name: stg_sn__postcodes
     description: "A staging table containing subnational postcode data"
     columns:
-      - name: "Postcode 1"
+      - name: postcode
         description: "The primary key for this table"
         data_tests:
           - unique
