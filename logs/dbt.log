@@ -1,0 +1,106 @@
+[0m23:59:27.704196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBD9139A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBE706050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBE705E70>]}
+
+
+============================== 23:59:27.721712 | d6f243c7-d9b3-43e6-89b9-5e4ad7d573c7 ==============================
+[0m23:59:27.721712 [info ] [MainThread]: Running with dbt=1.9.1
+[0m23:59:27.721712 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:59:37.832657 [debug] [MainThread]: Starter project path: F:\Users\calgr\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m23:59:37.937050 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:59:37.937050 [info ] [MainThread]: Setting up your profile.
+[0m23:59:46.979951 [debug] [MainThread]: Command `dbt init` succeeded at 23:59:46.979951 after 19.45 seconds
+[0m23:59:46.979951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBD9139A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBE706050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBE705D80>]}
+[0m23:59:46.979951 [debug] [MainThread]: Flushing usage events
+[0m23:59:47.442603 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:59:51.556345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B8F739D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B9D66080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B9D65EA0>]}
+
+
+============================== 23:59:51.571981 | 56426011-335f-4d47-a472-07ce81d707a1 ==============================
+[0m23:59:51.571981 [info ] [MainThread]: Running with dbt=1.9.1
+[0m23:59:51.571981 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m00:00:10.767050 [debug] [MainThread]: Starter project path: F:\Users\calgr\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m00:00:10.982977 [info ] [MainThread]: 
+Your new dbt project "dbt_consumption_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:00:10.982977 [info ] [MainThread]: Setting up your profile.
+[0m00:00:15.159137 [error] [MainThread]: Encountered an error:
+
+[0m00:00:15.191469 [error] [MainThread]: Traceback (most recent call last):
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+  File "F:\Users\calgr\anaconda3\lib\site-packages\dbt\task\init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "F:\Users\calgr\anaconda3\lib\site-packages\click\termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "F:\Users\calgr\anaconda3\lib\site-packages\click\termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m00:00:15.191469 [debug] [MainThread]: Command `dbt init` failed at 00:00:15.191469 after 23.76 seconds
+[0m00:00:15.191469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B8F739D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B9CFBF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208B9CF8A90>]}
+[0m00:00:15.191469 [debug] [MainThread]: Flushing usage events
+[0m00:00:15.574047 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:10:39.985804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E678BA9CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAA9DE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAA9C00>]}
+
+
+============================== 00:10:40.000811 | 553b9223-d8b2-412d-8266-be4ab77a5158 ==============================
+[0m00:10:40.000811 [info ] [MainThread]: Running with dbt=1.9.1
+[0m00:10:40.000811 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m00:11:07.798780 [debug] [MainThread]: Starter project path: F:\Users\calgr\anaconda3\envs\dbt\lib\site-packages\dbt\include\starter_project
+[0m00:11:07.847224 [info ] [MainThread]: 
+Your new dbt project "dbt_consumption_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:11:07.847224 [info ] [MainThread]: Setting up your profile.
+[0m00:12:16.247645 [info ] [MainThread]: Profile dbt_consumption_pipeline written to C:\Users\calgr\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:12:16.249884 [debug] [MainThread]: Command `dbt init` succeeded at 00:12:16.249884 after 96.36 seconds
+[0m00:12:16.250164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E678BA9CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAA9BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAAA4A0>]}
+[0m00:12:16.251192 [debug] [MainThread]: Flushing usage events
+[0m00:12:16.644109 [debug] [MainThread]: An error was encountered while trying to flush usage events
