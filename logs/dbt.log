@@ -104,3 +104,181 @@ Happy modeling!
 [0m00:12:16.250164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E678BA9CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAA9BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E67AAAA4A0>]}
 [0m00:12:16.251192 [debug] [MainThread]: Flushing usage events
 [0m00:12:16.644109 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:03:39.132794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECDBD50C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECF4C1180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECF4C0F70>]}
+
+
+============================== 21:03:39.153459 | 7abf06e6-c8ba-425f-aa09-5371e1f18dc8 ==============================
+[0m21:03:39.153459 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:03:39.159929 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:03:39.505878 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/calgr/.dbt')}
+[0m21:03:39.505878 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:04:10.422330 [debug] [MainThread]: Starter project path: C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:04:10.523788 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:04:10.523788 [info ] [MainThread]: Setting up your profile.
+[0m21:04:22.738555 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:04:22.738555 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:04:22.738555 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:12:38.521395 [info ] [MainThread]: Profile test written to C:\Users\calgr\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:12:38.531001 [debug] [MainThread]: Command `dbt init` succeeded at 21:12:38.529965 after 539.58 seconds
+[0m21:12:38.532471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECDBD50C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECF4C0F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ECF4FAEF0>]}
+[0m21:12:38.534477 [debug] [MainThread]: Flushing usage events
+[0m21:12:38.965781 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:38:58.836680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD960D5180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD979C1240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD979C0FD0>]}
+
+
+============================== 22:38:58.850218 | 4bf2ca24-7a72-4f38-a996-f95acf3b5526 ==============================
+[0m22:38:58.850218 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:38:58.852783 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:39:01.960048 [debug] [MainThread]: Starter project path: C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\include\starter_project
+[0m22:39:02.023061 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:39:02.023061 [info ] [MainThread]: Setting up your profile.
+[0m22:39:08.370851 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m22:39:08.370851 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m22:39:08.370851 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m22:40:30.950220 [error] [MainThread]: Encountered an error:
+
+[0m22:40:31.045427 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 113, in generate_target_from_input
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m22:40:31.056096 [debug] [MainThread]: Command `dbt init` failed at 22:40:31.056096 after 92.32 seconds
+[0m22:40:31.056096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DD960D5180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DDA9D107C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DDA9D10C40>]}
+[0m22:40:31.056096 [debug] [MainThread]: Flushing usage events
+[0m22:40:31.472624 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:40:34.845222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A552D51B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A569C1390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A569C11B0>]}
+
+
+============================== 22:40:34.854751 | e5a958d0-99e2-4708-94be-6932a404aa3a ==============================
+[0m22:40:34.854751 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:40:34.854751 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:40:42.208974 [debug] [MainThread]: Starter project path: C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\include\starter_project
+[0m22:40:42.255320 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:40:42.261545 [info ] [MainThread]: Setting up your profile.
+[0m22:40:44.415493 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m22:40:44.415493 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m22:40:44.415493 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m22:41:55.965238 [info ] [MainThread]: Profile test written to C:\Users\calgr\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:41:55.965238 [debug] [MainThread]: Command `dbt init` succeeded at 22:41:55.965238 after 81.23 seconds
+[0m22:41:55.965238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A552D51B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A569C10C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A569FF9A0>]}
+[0m22:41:55.965238 [debug] [MainThread]: Flushing usage events
+[0m22:41:56.387737 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:41.390856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014487ED5090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000144895C10F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000144895C0F10>]}
+
+
+============================== 21:19:41.398920 | 849ba4ef-b28e-4955-a8f9-f406df718430 ==============================
+[0m21:19:41.398920 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:19:41.398920 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\calgr\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:19:54.070922 [debug] [MainThread]: Starter project path: C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\include\starter_project
+[0m21:19:54.205590 [info ] [MainThread]: 
+Your new dbt project "abcdefg" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:19:54.210316 [info ] [MainThread]: Setting up your profile.
+[0m21:21:28.358031 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:21:28.359953 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:21:28.361003 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:54:03.303712 [error] [MainThread]: Encountered an error:
+
+[0m21:54:03.391361 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\calgr\Documents\Personal\Data Engineering\ETL-subnational-gas-elec\.venv\lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m21:54:03.398555 [debug] [MainThread]: Command `dbt init` failed at 21:54:03.398555 after 2062.23 seconds
+[0m21:54:03.399566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014487ED5090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001449B9DC7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001449B9DCC40>]}
+[0m21:54:03.400567 [debug] [MainThread]: Flushing usage events
+[0m21:54:03.827244 [debug] [MainThread]: An error was encountered while trying to flush usage events

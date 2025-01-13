@@ -2,10 +2,10 @@ version: 2
 
 sources:
   - name: sn
-    database: subnational_consumption
-    schema: dev
+    database: dbt_catalog
+    schema: azure_blob_storage
     tables:
       - name: national_statistics_postcode_lookup_uk
-      - name: postcode_level_all_meters_electricity
-      - name: postcode_level_gas
+      - name: postcode_level_all_meters_electricity_consolidated
+      - name: postcode_level_gas_consolidated
       
