@@ -6,6 +6,11 @@ sources:
     schema: azure_blob_storage
     tables:
       - name: national_statistics_postcode_lookup_uk
+        columns:
+        - name: postcode
+          description: "The primary key for this table"
+          tests:
+            - unique
+            - not_null
       - name: postcode_level_all_meters_electricity_consolidated
       - name: postcode_level_gas_consolidated
-      
