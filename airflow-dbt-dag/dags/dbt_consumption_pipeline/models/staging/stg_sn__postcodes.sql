@@ -1,39 +1,39 @@
 select
-  "Postcode 1" as postcode
-  ,"Postcode 2"
-  ,"Postcode 3"
-  ,"Date Introduced"
-  ,"User Type"
-  ,"Easting"
-  ,"Northing"
-  ,"Positional Quality"
-  ,"County Code"
-  ,"County Name"
-  ,"Local Authority Code"
-  ,"Local Authority Name"
-  ,"Ward Code"
-  ,"Ward Name"
-  ,"Country Code"
-  ,"Country Name"
-  ,"Region Code"
-  ,"Region Name"
-  ,"Parliamentary Constituency Code"
-  ,"Parliamentary Constituency Name"
-  ,"European Electoral Region Code"
-  ,"European Electoral Region Name"
-  ,"Primary Care Trust Code"
-  ,"Primary Care Trust Name"
-  ,"Lower Super Output Area Code"
-  ,"Lower Super Output Area Name"
-  ,"Middle Super Output Area Code"
-  ,"Middle Super Output Area Name"
-  ,"Output Area Classification Code"
-  ,"Output Area Classification Name"
-  ,"Longitude"
-  ,"Latitude"
-  ,"Spatial Accuracy"
-  ,"Last Uploaded"
-  ,"Location"
-  ,"Socrata ID"
+  `postcode_1` as postcode
+  ,`postcode_2`
+  ,`postcode_3`
+  ,`date_introduced`
+  ,`user_type`
+  ,`easting`
+  ,`northing`
+  ,`positional_quality`
+  ,`county_code`
+  ,`county_name`
+  ,`local_authority_code`
+  ,`local_authority_name`
+  ,`ward_code`
+  ,`ward_name`
+  ,`country_code`
+  ,`country_name`
+  ,`region_code`
+  ,`region_name`
+  ,`parliamentary_constituency_code`
+  ,`parliamentary_constituency_name`
+  ,`european_electoral_region_code`
+  ,`european_electoral_region_name`
+  ,`primary_care_trust_code`
+  ,`primary_care_trust_name`
+  ,`lower_super_output_area_code`
+  ,`lower_super_output_area_name`
+  ,`middle_super_output_area_code`
+  ,`middle_super_output_area_name`
+  ,`output_area_classification_code`
+  ,`output_area_classification_name`
+  ,`longitude`
+  ,`latitude`
+  ,`spatial_accuracy`
+  ,`last_uploaded`
+  ,`location`
+  ,`socrata_id`
 from
   {{source('sn', 'national_statistics_postcode_lookup_uk')}}
