@@ -15,10 +15,11 @@ profile_config = ProfileConfig(
     profile_mapping=DatabricksTokenProfileMapping(
         conn_id="databricks_conn", 
         profile_args={
-            "host": os.getenv("DATABRICKS_HOST"), 
+            "host": os.getenv("DATABRICKS_HOST"),
             "schema": os.getenv("DATABRICKS_SCHEMA"), 
             "http_path": os.getenv("DATABRICKS_HTTP_PATH"),
             "token": os.getenv("DATABRICKS_TOKEN"),
+            "catalog" : os.getenv("DATABRICKS_CATALOG")
         }
     )
 )
